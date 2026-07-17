@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630">
+      <stop offset="0%" stop-color="#050505"/>
+      <stop offset="100%" stop-color="#0b0d17"/>
+    </linearGradient>
+    <linearGradient id="g" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#3355FF"/>
+      <stop offset="55%" stop-color="#8B2FF8"/>
+      <stop offset="100%" stop-color="#00E5FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <path d="M120 420 L220 260 L320 340 L460 180 L620 260" fill="none" stroke="url(#g)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+  <text x="120" y="500" font-family="Arial, sans-serif" font-size="64" font-weight="800" fill="#F4F5FA">NEZA Digital Marketing</text>
+  <text x="120" y="545" font-family="Arial, sans-serif" font-size="26" fill="#9297ad">Grow Your Business Online</text>
+</svg>

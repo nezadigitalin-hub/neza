@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NEZA Digital Marketing — Grow Your Business Online</title>
+<meta name="description" content="NEZA Digital Marketing helps startups, entrepreneurs and local brands grow online through data-driven SEO, social media, Google Ads and performance marketing. Founded by Ebinezar A.">
+<meta name="keywords" content="digital marketing agency, SEO, social media marketing, google ads, performance marketing, Tamil Nadu, NEZA Digital Marketing, Ebinezar A">
+<meta name="author" content="Ebinezar A">
+<link rel="canonical" href="https://www.nezadigitalmarketing.com/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="NEZA Digital Marketing — Grow Your Business Online">
+<meta property="og:description" content="Data-driven SEO, social media, Google Ads and performance marketing that grows real businesses.">
+<meta property="og:url" content="https://www.nezadigitalmarketing.com/">
+<meta property="og:image" content="assets/og-cover.svg">
+<meta property="og:locale" content="en_IN">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="NEZA Digital Marketing — Grow Your Business Online">
+<meta name="twitter:description" content="Data-driven SEO, social media, Google Ads and performance marketing that grows real businesses.">
+<meta name="twitter:image" content="assets/og-cover.svg">
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="assets/favicon-512.png">
+<link rel="apple-touch-icon" href="assets/favicon-512.png">
+
+<!-- Schema.org -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MarketingAgency",
+  "name": "NEZA Digital Marketing",
+  "founder": { "@type": "Person", "name": "Ebinezar A" },
+  "email": "nezadigital.in@gmail.com",
+  "telephone": "+91-6374581582",
+  "address": { "@type": "PostalAddress", "addressRegion": "Tamil Nadu", "addressCountry": "IN" },
+  "url": "https://www.nezadigitalmarketing.com/",
+  "sameAs": [
+    "https://www.instagram.com/neza__digital?igsh=MXFiYWh4bWt3Y2hmeA==",
+    "https://www.facebook.com/share/18rMBSoiPY/"
+  ]
+}
+</script>
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" id="fontAwesomeCSS">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ LOADING SCREEN ============ -->
+<div class="loader" id="loader">
+  <div class="loader-inner">
+    <img src="assets/logo-mark.png" alt="" class="loader-mark">
+    <p class="loader-text">NEZA<span>.</span></p>
+    <div class="loader-bar"><span id="loaderProgress"></span></div>
+  </div>
+</div>
+
+<!-- ============ CURSOR GLOW ============ -->
+<div class="cursor-glow" id="cursorGlow"></div>
+<div class="cursor-dot" id="cursorDot"></div>
+
+<!-- ============ GROWTH LINE (signature scroll element) ============ -->
+<div class="growth-rail" aria-hidden="true">
+  <svg class="growth-svg" viewBox="0 0 40 1000" preserveAspectRatio="none">
+    <path id="growthPath" d="M20 0 L20 1000" stroke="#1a1d2e" stroke-width="2"/>
+    <path id="growthPathFill" d="M20 0 L20 0" stroke="url(#railGrad)" stroke-width="2"/>
+    <circle id="growthDot" cx="20" cy="0" r="5" fill="#00E5FF"/>
+    <defs>
+      <linearGradient id="railGrad" x1="0" y1="0" x2="0" y2="1000">
+        <stop offset="0%" stop-color="#3355FF"/>
+        <stop offset="50%" stop-color="#8B2FF8"/>
+        <stop offset="100%" stop-color="#00E5FF"/>
+      </linearGradient>
+    </defs>
+  </svg>
+</div>
+<div class="scroll-progress-top"><span id="scrollProgressTop"></span></div>
+
+<!-- ============ NAVBAR ============ -->
+<header class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="#hero" class="nav-logo">
+      <img src="assets/logo-mark.png" alt="NEZA Digital Marketing logo" class="logo-mark-img">
+      <span class="logo-text">NEZA<em>Digital</em></span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#founder">Founder</a>
+      <a href="#testimonials">Reviews</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact" class="nav-cta">Get Started</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="hero">
+  <div class="hero-bg">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+    <canvas id="particles"></canvas>
+    <div class="grid-overlay"></div>
+  </div>
+
+  <div class="hero-container">
+    <div class="hero-content" data-aos="fade-up">
+      <div class="hero-eyebrow"><span class="dot-pulse"></span> Data-Driven Digital Marketing Agency</div>
+      <h1 class="hero-title">
+        Grow Your Business Online with
+        <span class="gradient-text typed-wrap"><span id="typedHero"></span></span>
+      </h1>
+      <p class="hero-subtitle">
+        Helping businesses increase visibility, generate quality leads, improve search rankings, build strong brands, and maximize ROI through modern digital marketing strategies.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">
+          <span>Get Free Consultation</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#services" class="btn btn-ghost">Explore Services</a>
+      </div>
+      <div class="hero-trust">
+        <div class="trust-item"><strong>100+</strong><span>Projects</span></div>
+        <div class="trust-divider"></div>
+        <div class="trust-item"><strong>98%</strong><span>Satisfaction</span></div>
+        <div class="trust-divider"></div>
+        <div class="trust-item"><strong>24/7</strong><span>Support</span></div>
+      </div>
+    </div>
+
+    <div class="hero-visual" data-aos="fade-left" data-aos-delay="150">
+      <div class="dashboard-mock glass">
+        <div class="dashboard-head">
+          <div class="dashboard-dots"><span></span><span></span><span></span></div>
+          <span class="dashboard-title">neza-analytics.live</span>
+        </div>
+        <div class="dashboard-body">
+          <div class="dash-stat">
+            <span class="dash-label">Organic Traffic</span>
+            <span class="dash-value">+184%</span>
+            <svg class="dash-chart" viewBox="0 0 160 50" preserveAspectRatio="none">
+              <polyline points="0,40 20,35 40,38 60,25 80,28 100,15 120,18 140,6 160,10" fill="none" stroke="#00E5FF" stroke-width="2.5"/>
+            </svg>
+          </div>
+          <div class="dash-stat">
+            <span class="dash-label">Google Rank Keywords</span>
+            <span class="dash-value">+312</span>
+            <svg class="dash-chart" viewBox="0 0 160 50" preserveAspectRatio="none">
+              <polyline points="0,45 20,30 40,32 60,20 80,22 100,12 120,14 140,4 160,2" fill="none" stroke="#8B2FF8" stroke-width="2.5"/>
+            </svg>
+          </div>
+          <div class="dash-ring-row">
+            <div class="dash-ring">
+              <svg viewBox="0 0 80 80"><circle cx="40" cy="40" r="34" stroke="#1a1d2e" stroke-width="8" fill="none"/><circle cx="40" cy="40" r="34" stroke="url(#ringGrad)" stroke-width="8" fill="none" stroke-dasharray="213" stroke-dashoffset="42" stroke-linecap="round"/><defs><linearGradient id="ringGrad"><stop offset="0%" stop-color="#3355FF"/><stop offset="100%" stop-color="#00E5FF"/></linearGradient></defs></svg>
+              <span>ROI 4.8x</span>
+            </div>
+            <div class="dash-social">
+              <div class="social-chip"><i class="fa-brands fa-instagram social-icon"></i> +12.4k</div>
+              <div class="social-chip"><i class="fa-brands fa-facebook-f social-icon"></i> +8.1k</div>
+              <div class="social-chip"><i class="fa-brands fa-linkedin-in social-icon"></i> +5.6k</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="phone-mock glass" data-tilt data-tilt-max="8">
+        <div class="phone-notch"></div>
+        <div class="phone-screen">
+          <div class="phone-post"><div class="phone-post-img"></div><div class="phone-post-line short"></div><div class="phone-post-line"></div></div>
+          <div class="phone-post"><div class="phone-post-img alt"></div><div class="phone-post-line short"></div><div class="phone-post-line"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section about" id="about">
+  <div class="container">
+    <div class="section-head" data-aos="fade-up">
+      <span class="eyebrow">// About Us</span>
+      <h2>Marketing built on data, not guesswork.</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text" data-aos="fade-up" data-aos-delay="100">
+        <p class="lead">
+          <strong>NEZA Digital Marketing</strong> is a results-first digital marketing agency built to help startups, entrepreneurs, local businesses, and growing brands turn attention into revenue.
+        </p>
+        <p>
+          We combine search engine optimization, paid advertising, social media strategy, and content that converts into a single, connected growth engine. Every campaign starts with your numbers — your traffic, your customer acquisition cost, your conversion funnel — and every decision we make is measured against real ROI, not vanity metrics.
+        </p>
+        <p>
+          Whether you're launching your first campaign or scaling an existing brand, NEZA works as an extension of your team: transparent reporting, honest timelines, and strategies tailored to your market rather than a one-size-fits-all playbook.
+        </p>
+        <div class="about-points">
+          <div class="about-point"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="#00E5FF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg> Startups &amp; first-time founders</div>
+          <div class="about-point"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="#00E5FF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg> Local businesses going online</div>
+          <div class="about-point"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="#00E5FF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg> Brands ready to scale performance</div>
+        </div>
+      </div>
+      <div class="about-visual" data-aos="fade-up" data-aos-delay="200">
+        <div class="orbit-card glass">
+          <div class="orbit-ring r1"></div>
+          <div class="orbit-ring r2"></div>
+          <div class="orbit-core">
+            <span>NEZA</span>
+          </div>
+          <div class="orbit-chip c1">SEO</div>
+          <div class="orbit-chip c2">Ads</div>
+          <div class="orbit-chip c3">Social</div>
+          <div class="orbit-chip c4">Content</div>
+          <div class="orbit-chip c5">Email</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOUNDER ============ -->
+<section class="section founder" id="founder">
+  <div class="container">
+    <div class="section-head" data-aos="fade-up">
+      <span class="eyebrow">// The Founder</span>
+      <h2>Meet the person behind NEZA.</h2>
+    </div>
+
+    <div class="founder-grid">
+      <div class="founder-card glass" data-aos="fade-up">
+        <div class="founder-photo">
+          <div class="founder-photo-ring"></div>
+          <div class="founder-photo-placeholder" id="founderPhoto">EA</div>
+        </div>
+        <h3>Ebinezar A</h3>
+        <p class="founder-role">Founder, NEZA Digital Marketing</p>
+        <p class="founder-sub">B.Tech Artificial Intelligence &amp; Data Science</p>
+        <div class="founder-socials">
+          <a href="https://www.instagram.com/neza__digital?igsh=MXFiYWh4bWt3Y2hmeA==" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram social-icon"></i></a>
+          <a href="https://www.facebook.com/share/18rMBSoiPY/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f social-icon"></i></a>
+          <a href="mailto:nezadigital.in@gmail.com" aria-label="Email"><i class="fa-regular fa-envelope social-icon"></i></a>
+          <a href="tel:+916374581582" aria-label="Call"><i class="fa-solid fa-phone social-icon"></i></a>
+        </div>
+        <div class="founder-brand">
+          <img src="assets/logo-mark.png" alt="NEZA Digital Marketing logo" class="founder-brand-logo">
+          <span class="founder-brand-text">NEZA</span>
+        </div>
+      </div>
+
+      <div class="founder-details" data-aos="fade-up" data-aos-delay="100">
+        <p class="founder-summary">
+          Motivated B.Tech Artificial Intelligence and Data Science student with a strong passion for digital marketing. Brings working knowledge of SEO, social media marketing, Google Ads, content marketing and Google Analytics, with a keen interest in creating data-driven marketing strategies — backed by strong analytical, creative and problem-solving skills.
+        </p>
+
+        <h4 class="timeline-heading">Journey So Far</h4>
+        <div class="timeline">
+          <div class="timeline-item" data-aos="fade-up">
+            <span class="timeline-dot"></span>
+            <div class="timeline-content">
+              <span class="timeline-year">2022 — 2026</span>
+              <h5>B.Tech, Artificial Intelligence &amp; Data Science</h5>
+              <p>Chettinad College of Engineering and Technology · CGPA 6.56/10</p>
+            </div>
+          </div>
+          <div class="timeline-item" data-aos="fade-up">
+            <span class="timeline-dot"></span>
+            <div class="timeline-content">
+              <span class="timeline-year">6-Month Internship</span>
+              <h5>Digital Marketing Intern — Hope Studio</h5>
+              <p>Planned campaigns, created social creatives in Canva, ran keyword research &amp; on-page SEO, and tracked performance with GA4.</p>
+            </div>
+          </div>
+          <div class="timeline-item" data-aos="fade-up">
+            <span class="timeline-dot"></span>
+            <div class="timeline-content">
+              <span class="timeline-year">Certified</span>
+              <h5>Google &amp; Meta Certified Marketer</h5>
+              <p>Google Digital Marketing, Google Analytics, Google Ads, HubSpot Certifications, Meta Blueprint.</p>
+            </div>
+          </div>
+          <div class="timeline-item" data-aos="fade-up">
+            <span class="timeline-dot"></span>
+            <div class="timeline-content">
+              <span class="timeline-year">Today</span>
+              <h5>Founder, NEZA Digital Marketing</h5>
+              <p>Turning campaign experience into a full-service agency for local and growing businesses.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="founder-langs">
+          <span class="lang-pill">Tamil</span>
+          <span class="lang-pill">English</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="section services" id="services">
+  <div class="container">
+    <div class="section-head" data-aos="fade-up">
+      <span class="eyebrow">// What We Do</span>
+      <h2>Full-funnel marketing services.</h2>
+      <p class="section-desc">Everything you need to be found, followed, and chosen — under one roof.</p>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card glass" data-aos="fade-up" data-tilt data-tilt-max="6">
+        <div class="service-icon"><i data-lucide="smartphone"></i></div>
+        <h3>Social Media Marketing</h3>
+        <ul><li>Instagram Page Management</li><li>Facebook Page Management</li><li>Content Planning</li><li>Hashtag Research</li><li>Post Scheduling</li></ul>
+      </div>
+      <div class="service-card glass" data-aos="fade-up" data-aos-delay="60" data-tilt data-tilt-max="6">
+        <div class="service-icon"><i data-lucide="palette"></i></div>
+        <h3>Content Creation</h3>
+        <ul><li>Social Media Posts</li><li>Carousel Designs</li><li>Reels Ideas</li><li>Caption Writing</li></ul>
+      </div>
+      <div class="service-card glass" data-aos="fade-up" data-aos-delay="120" data-tilt data-tilt-max="6">
+        <div class="service-icon"><i data-lucide="search"></i></div>
+        <h3>SEO</h3>
+        <ul><li>Keyword Research</li><li>On-Page SEO</li><li>Website SEO Audit</li><li>Google Ranking Optimization</li><li>Technical SEO</li></ul>
+      </div>
+      <div class="service-card glass" data-aos="fade-up" data-tilt data-tilt-max="6">
+        <div class="service-icon"><i data-lucide="badge-indian-rupee"></i></div>
+        <h3>Google Ads</h3>
+        <ul><li>Search Ads</li><li>Display Ads</li><li>Campaign Optimization</li><li>Performance Tracking</li></ul>
+      </div>
+      <div class="service-card glass" data-aos="fade-up" data-aos-delay="60" data-tilt data-tilt-max="6">
+        <div class="service-icon"><i data-lucide="mail"></i></div>
+        <h3>Email Marketing</h3>
+        <ul><li>Campaign Setup</li><li>Newsletter Design</li><li>Email Automation</li><li>Customer Follow-Up Emails</li></ul>
+      </div>
+      <div class="service-card glass" data-aos="fade-up" data-aos-delay="120" data-tilt data-tilt-max="6">
+        <div class="service-icon"><i data-lucide="trending-up"></i></div>
+        <h3>Performance Marketing</h3>
+        <ul><li>Meta Ads</li><li>Facebook &amp; Instagram Ads</li><li>Lead Generation</li><li>Conversion Campaigns</li><li>ROI Optimization</li></ul>
+      </div>
+      <div class="service-card glass" data-aos="fade-up" data-tilt data-tilt-max="6">
+        <div class="service-icon"><i class="fa-brands fa-linkedin-in social-icon"></i></div>
+        <h3>LinkedIn Marketing</h3>
+        <ul><li>Company Page Management</li><li>Profile Optimization</li><li>Lead Generation</li></ul>
+      </div>
+      <div class="service-card glass" data-aos="fade-up" data-aos-delay="60" data-tilt data-tilt-max="6">
+        <div class="service-icon"><i class="fa-brands fa-youtube social-icon"></i></div>
+        <h3>YouTube Marketing</h3>
+        <ul><li>Channel Optimization</li><li>Video SEO</li><li>Thumbnail Suggestions</li></ul>
+      </div>
+      <div class="service-card glass" data-aos="fade-up" data-aos-delay="120" data-tilt data-tilt-max="6">
+        <div class="service-icon"><i data-lucide="globe"></i></div>
+        <h3>Website Services</h3>
+        <ul><li>Landing Pages</li><li>Portfolio Websites</li><li>Business Websites</li><li>Website Optimization</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY CHOOSE US ============ -->
+<section class="section why-us" id="why-us">
+  <div class="container">
+    <div class="section-head" data-aos="fade-up">
+      <span class="eyebrow">// Why NEZA</span>
+      <h2>Why businesses choose to grow with us.</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-card" data-aos="zoom-in"><i data-lucide="wallet"></i><h4>Affordable Pricing</h4><p>Strategies designed to fit real budgets, not inflate them.</p></div>
+      <div class="why-card" data-aos="zoom-in" data-aos-delay="60"><i data-lucide="timer"></i><h4>On-Time Delivery</h4><p>Deadlines you can plan your business around.</p></div>
+      <div class="why-card" data-aos="zoom-in" data-aos-delay="120"><i data-lucide="headset"></i><h4>Professional Support</h4><p>Direct, responsive communication whenever you need it.</p></div>
+      <div class="why-card" data-aos="zoom-in" data-aos-delay="180"><i data-lucide="target"></i><h4>Customized Strategy</h4><p>No templates — every plan is built around your goals.</p></div>
+      <div class="why-card" data-aos="zoom-in"><i data-lucide="rocket"></i><h4>Result-Oriented Work</h4><p>We optimize for outcomes, not activity.</p></div>
+      <div class="why-card" data-aos="zoom-in" data-aos-delay="60"><i data-lucide="bar-chart-3"></i><h4>Data-Driven Marketing</h4><p>Every decision is backed by analytics, not assumptions.</p></div>
+      <div class="why-card" data-aos="zoom-in" data-aos-delay="120"><i data-lucide="message-circle"></i><h4>Transparent Communication</h4><p>Clear reporting so you always know what's working.</p></div>
+      <div class="why-card" data-aos="zoom-in" data-aos-delay="180"><i data-lucide="sparkles"></i><h4>Latest Marketing Trends</h4><p>Strategies that evolve with the platforms themselves.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section class="section skills" id="skills">
+  <div class="container">
+    <div class="section-head" data-aos="fade-up">
+      <span class="eyebrow">// Expertise</span>
+      <h2>Skills that drive the strategy.</h2>
+    </div>
+    <div class="skills-grid" data-aos="fade-up">
+      <div class="skill-row"><div class="skill-top"><span>SEO</span><span>92%</span></div><div class="skill-bar"><span data-width="92"></span></div></div>
+      <div class="skill-row"><div class="skill-top"><span>Google Ads</span><span>88%</span></div><div class="skill-bar"><span data-width="88"></span></div></div>
+      <div class="skill-row"><div class="skill-top"><span>Meta Ads</span><span>85%</span></div><div class="skill-bar"><span data-width="85"></span></div></div>
+      <div class="skill-row"><div class="skill-top"><span>Social Media Marketing</span><span>94%</span></div><div class="skill-bar"><span data-width="94"></span></div></div>
+      <div class="skill-row"><div class="skill-top"><span>Content Marketing</span><span>90%</span></div><div class="skill-bar"><span data-width="90"></span></div></div>
+      <div class="skill-row"><div class="skill-top"><span>Email Marketing</span><span>82%</span></div><div class="skill-bar"><span data-width="82"></span></div></div>
+      <div class="skill-row"><div class="skill-top"><span>Google Analytics (GA4)</span><span>89%</span></div><div class="skill-bar"><span data-width="89"></span></div></div>
+      <div class="skill-row"><div class="skill-top"><span>Keyword Research</span><span>91%</span></div><div class="skill-bar"><span data-width="91"></span></div></div>
+      <div class="skill-row"><div class="skill-top"><span>Copywriting</span><span>87%</span></div><div class="skill-bar"><span data-width="87"></span></div></div>
+      <div class="skill-row"><div class="skill-top"><span>Canva</span><span>95%</span></div><div class="skill-bar"><span data-width="95"></span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TOOLS ============ -->
+<section class="section tools" id="tools">
+  <div class="container">
+    <div class="section-head" data-aos="fade-up">
+      <span class="eyebrow">// Tool Stack</span>
+      <h2>The platforms behind every campaign.</h2>
+    </div>
+    <div class="tools-grid" data-aos="fade-up">
+      <div class="tool-card"><span>Google Analytics 4</span></div>
+      <div class="tool-card"><span>Google Search Console</span></div>
+      <div class="tool-card"><span>Google Ads</span></div>
+      <div class="tool-card"><span>Meta Ads Manager</span></div>
+      <div class="tool-card"><span>Canva</span></div>
+      <div class="tool-card"><span>WordPress</span></div>
+      <div class="tool-card"><span>Semrush / Ahrefs</span></div>
+      <div class="tool-card"><span>Mailchimp</span></div>
+      <div class="tool-card"><span>Microsoft Excel</span></div>
+      <div class="tool-card"><span>Google Sheets</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section class="section projects" id="projects">
+  <div class="container">
+    <div class="section-head" data-aos="fade-up">
+      <span class="eyebrow">// Selected Work</span>
+      <h2>Projects that prove the process.</h2>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card glass" data-aos="fade-up">
+        <div class="project-tag">Social Media</div>
+        <h3>Social Media Marketing Campaign — Clothing Brand</h3>
+        <p>Planned and executed a complete 30-day social media campaign for a sample clothing brand: Instagram posts, reels, captions, a hashtag strategy, and a full content calendar to grow brand awareness and engagement.</p>
+        <div class="project-tags"><span>Social Media Marketing</span><span>Canva</span><span>Content Creation</span><span>Copywriting</span><span>Content Planning</span></div>
+      </div>
+      <div class="project-card glass" data-aos="fade-up" data-aos-delay="80">
+        <div class="project-tag">SEO</div>
+        <h3>SEO Optimization — Blog Website</h3>
+        <p>Developed and optimized a WordPress blog through keyword research, SEO-friendly article writing, and meta title/description optimization — improving on-page SEO and search visibility.</p>
+        <div class="project-tags"><span>SEO</span><span>WordPress</span><span>Keyword Research</span><span>Google Search Console</span><span>Content Marketing</span></div>
+      </div>
+      <div class="project-card glass" data-aos="fade-up" data-aos-delay="160">
+        <div class="project-tag">Paid Ads</div>
+        <h3>Google Ads Campaign — Local Business</h3>
+        <p>Designed and managed a Google Search Ads campaign for a sample local business: keyword research, ad copywriting, audience targeting, and performance analysis using Google Analytics.</p>
+        <div class="project-tags"><span>Google Ads</span><span>Google Analytics (GA4)</span><span>Keyword Research</span><span>Campaign Optimization</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ INTERNSHIP ============ -->
+<section class="section internship" id="internship">
+  <div class="container">
+    <div class="section-head" data-aos="fade-up">
+      <span class="eyebrow">// Experience</span>
+      <h2>Real campaigns, real learning.</h2>
+    </div>
+    <div class="internship-card glass" data-aos="fade-up">
+      <div class="internship-head">
+        <div>
+          <h3>Digital Marketing Intern</h3>
+          <p class="internship-company">Hope Studio</p>
+        </div>
+        <span class="internship-duration">6 Months</span>
+      </div>
+      <div class="internship-grid">
+        <div>
+          <h4>Responsibilities</h4>
+          <ul>
+            <li>Assisted in planning and executing digital marketing campaigns</li>
+            <li>Created engaging social media posts and marketing creatives using Canva</li>
+            <li>Conducted keyword research and implemented basic SEO techniques</li>
+            <li>Monitored campaign performance using Google Analytics (GA4)</li>
+            <li>Performed competitor research and prepared marketing reports</li>
+            <li>Supported content creation for social media and blog posts</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Skills Learned</h4>
+          <div class="chip-cloud">
+            <span>Campaign Planning</span><span>Canva Design</span><span>Keyword Research</span><span>On-Page SEO</span><span>GA4 Reporting</span><span>Competitor Research</span><span>Content Support</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CERTIFICATIONS ============ -->
+<section class="section certifications" id="certifications">
+  <div class="container">
+    <div class="section-head" data-aos="fade-up">
+      <span class="eyebrow">// Credentials</span>
+      <h2>Certified across the tools that matter.</h2>
+    </div>
+    <div class="cert-grid">
+      <div class="cert-card glass" data-aos="fade-up"><i data-lucide="badge-check"></i><h4>Google Digital Marketing</h4></div>
+      <div class="cert-card glass" data-aos="fade-up" data-aos-delay="60"><i data-lucide="badge-check"></i><h4>Google Analytics</h4></div>
+      <div class="cert-card glass" data-aos="fade-up" data-aos-delay="120"><i data-lucide="badge-check"></i><h4>Google Ads</h4></div>
+      <div class="cert-card glass" data-aos="fade-up" data-aos-delay="180"><i data-lucide="badge-check"></i><h4>HubSpot Certifications</h4></div>
+      <div class="cert-card glass" data-aos="fade-up" data-aos-delay="240"><i data-lucide="badge-check"></i><h4>Meta Blueprint</h4></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STATS ============ -->
+<section class="section stats" id="stats">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-card" data-aos="fade-up"><span class="stat-num" data-count="100" data-suffix="+">0</span><span class="stat-label">Projects</span></div>
+      <div class="stat-card" data-aos="fade-up" data-aos-delay="60"><span class="stat-num" data-count="50" data-suffix="+">0</span><span class="stat-label">Happy Clients</span></div>
+      <div class="stat-card" data-aos="fade-up" data-aos-delay="120"><span class="stat-num" data-count="98" data-suffix="%">0</span><span class="stat-label">Client Satisfaction</span></div>
+      <div class="stat-card" data-aos="fade-up" data-aos-delay="180"><span class="stat-num-static">24/7</span><span class="stat-label">Support</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="section testimonials" id="testimonials">
+  <div class="container">
+    <div class="section-head" data-aos="fade-up">
+      <span class="eyebrow">// Client Voices</span>
+      <h2>What working with NEZA feels like.</h2>
+    </div>
+    <div class="swiper testi-swiper" data-aos="fade-up">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="testi-card glass">
+            <div class="testi-stars">★★★★★</div>
+            <p>"Our Instagram engagement grew noticeably within the first month. The content calendar alone saved us hours every week."</p>
+            <div class="testi-author"><span class="testi-avatar">RK</span><div><strong>Ramesh Kumar</strong><span>Owner, Urban Threads Clothing</span></div></div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testi-card glass">
+            <div class="testi-stars">★★★★★</div>
+            <p>"Our blog finally started ranking for the keywords we actually cared about. Clear communication throughout."</p>
+            <div class="testi-author"><span class="testi-avatar">SP</span><div><strong>Sandhya Priya</strong><span>Founder, DailyBrew Blog</span></div></div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testi-card glass">
+            <div class="testi-stars">★★★★★</div>
+            <p>"The Google Ads campaign paid for itself within weeks. Reporting was transparent and easy to understand."</p>
+            <div class="testi-author"><span class="testi-avatar">VM</span><div><strong>Vignesh M.</strong><span>Owner, local retail business</span></div></div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testi-card glass">
+            <div class="testi-stars">★★★★★</div>
+            <p>"Professional, responsive, and genuinely invested in our growth. NEZA feels like part of our team."</p>
+            <div class="testi-author"><span class="testi-avatar">AJ</span><div><strong>Ananya J.</strong><span>Marketing Lead, D2C Startup</span></div></div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section faq" id="faq">
+  <div class="container container-narrow">
+    <div class="section-head" data-aos="fade-up">
+      <span class="eyebrow">// Questions</span>
+      <h2>Frequently asked questions.</h2>
+    </div>
+    <div class="faq-list" data-aos="fade-up">
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">How long does it take to see SEO results? <span class="faq-icon"></span></button>
+        <div class="faq-a"><p>Most campaigns show early movement in 4–6 weeks, with meaningful ranking and traffic gains building over 3–6 months, depending on competition and starting point.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">Do you work with businesses outside Tamil Nadu? <span class="faq-icon"></span></button>
+        <div class="faq-a"><p>Yes — NEZA works with businesses across India remotely, with regular calls and reporting regardless of location.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">What is included in a free consultation? <span class="faq-icon"></span></button>
+        <div class="faq-a"><p>A review of your current online presence, a short audit of quick wins, and a proposed strategy tailored to your goals and budget — no obligation.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">Can you manage both social media and paid ads together?</button>
+        <div class="faq-a"><p>Yes — organic and paid work best when planned together, and NEZA builds combined strategies so every rupee of ad spend supports your organic growth too.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">How do you report results?</button>
+        <div class="faq-a"><p>You'll receive clear, plain-language reports from Google Analytics, Search Console, and ad platforms — no jargon, just what's working and what's next.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section contact" id="contact">
+  <div class="container">
+    <div class="section-head" data-aos="fade-up">
+      <span class="eyebrow">// Let's Talk</span>
+      <h2>Ready to grow your business online?</h2>
+      <p class="section-desc">Tell us about your business — we'll get back to you within 24 hours.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info" data-aos="fade-up">
+        <a class="contact-item" href="mailto:nezadigital.in@gmail.com">
+          <i class="fa-regular fa-envelope social-icon"></i>
+          <div><span>Email</span><strong>nezadigital.in@gmail.com</strong></div>
+        </a>
+        <a class="contact-item" href="tel:+916374581582">
+          <i class="fa-solid fa-phone social-icon"></i>
+          <div><span>Phone</span><strong>+91 6374581582</strong></div>
+        </a>
+        <a class="contact-item" href="https://www.google.com/maps/search/?api=1&query=Tamil+Nadu%2C+India" target="_blank" rel="noopener">
+          <i data-lucide="map-pin"></i>
+          <div><span>Location</span><strong>Tamil Nadu, India</strong></div>
+        </a>
+        <a class="contact-item" href="https://wa.me/916374581582?text=Hello%20NEZA%20Digital%20Marketing!%20I'm%20interested%20in%20your%20services%20and%20would%20like%20to%20discuss%20my%20business%20requirements.%20Please%20get%20in%20touch." target="_blank" rel="noopener">
+          <i class="fa-brands fa-whatsapp social-icon"></i>
+          <div><span>WhatsApp</span><strong>Chat with us</strong></div>
+        </a>
+        <div class="contact-socials">
+          <a href="https://www.instagram.com/neza__digital?igsh=MXFiYWh4bWt3Y2hmeA==" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram social-icon"></i></a>
+          <a href="https://www.facebook.com/share/18rMBSoiPY/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f social-icon"></i></a>
+        </div>
+      </div>
+
+      <form class="contact-form glass" id="contactForm" data-aos="fade-up" data-aos-delay="100" novalidate>
+        <div class="form-success" id="formSuccess">
+          <svg width="56" height="56" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#00E5FF" stroke-width="2"/><path d="M8 12.5l2.5 2.5L16 9" stroke="#00E5FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <h3>Message sent!</h3>
+          <p>Thanks for reaching out — we'll reply within 24 hours.</p>
+        </div>
+        <div class="form-error" id="formError" role="alert">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#ff5c7a" stroke-width="2"/><path d="M12 8v5M12 16h.01" stroke="#ff5c7a" stroke-width="2" stroke-linecap="round"/></svg>
+          <span>Something went wrong while sending your message. Please try again, or email us directly at <a href="mailto:nezadigital.in@gmail.com">nezadigital.in@gmail.com</a>.</span>
+        </div>
+        <div class="form-row">
+          <div class="field">
+            <label for="fName">Name</label>
+            <input type="text" id="fName" name="name" required placeholder="Your full name">
+            <span class="field-error">Please enter your name</span>
+          </div>
+          <div class="field">
+            <label for="fEmail">Email</label>
+            <input type="email" id="fEmail" name="email" required placeholder="you@email.com">
+            <span class="field-error">Please enter a valid email</span>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="field">
+            <label for="fPhone">Phone</label>
+            <input type="tel" id="fPhone" name="phone" required placeholder="+91 00000 00000">
+            <span class="field-error">Please enter your phone number</span>
+          </div>
+          <div class="field">
+            <label for="fCompany">Company</label>
+            <input type="text" id="fCompany" name="company" placeholder="Business / brand name">
+          </div>
+        </div>
+        <div class="field">
+          <label for="fService">Service</label>
+          <select id="fService" name="service" required>
+            <option value="" disabled selected>Select a service</option>
+            <option>Social Media Marketing</option>
+            <option>Content Creation</option>
+            <option>SEO</option>
+            <option>Google Ads</option>
+            <option>Email Marketing</option>
+            <option>Performance Marketing</option>
+            <option>LinkedIn Marketing</option>
+            <option>YouTube Marketing</option>
+            <option>Website Services</option>
+          </select>
+          <span class="field-error">Please choose a service</span>
+        </div>
+        <div class="field">
+          <label for="fMessage">Message</label>
+          <textarea id="fMessage" name="message" rows="4" required placeholder="Tell us about your business and goals"></textarea>
+          <span class="field-error">Please add a short message</span>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">
+          <span>Send Message</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#hero" class="nav-logo"><img src="assets/logo-mark.png" alt="NEZA Digital Marketing logo" class="logo-mark-img"><span class="logo-text">NEZA<em>Digital</em></span></a>
+        <p>Grow Your Business Online 🚀<br>Data-driven digital marketing for startups, entrepreneurs and growing brands.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Quick Links</h5>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#founder">Founder</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h5>Services</h5>
+        <a href="#services">SEO</a>
+        <a href="#services">Google Ads</a>
+        <a href="#services">Social Media Marketing</a>
+        <a href="#services">Performance Marketing</a>
+      </div>
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <a href="mailto:nezadigital.in@gmail.com">nezadigital.in@gmail.com</a>
+        <a href="tel:+916374581582">+91 6374581582</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Tamil+Nadu%2C+India" target="_blank" rel="noopener">Tamil Nadu, India</a>
+        <div class="footer-socials">
+          <a href="https://www.instagram.com/neza__digital?igsh=MXFiYWh4bWt3Y2hmeA==" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram social-icon"></i></a>
+          <a href="https://www.facebook.com/share/18rMBSoiPY/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f social-icon"></i></a>
+          <a href="https://wa.me/916374581582" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp social-icon"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> NEZA Digital Marketing. All rights reserved. Founded by Ebinezar A.</p>
+      <button class="back-to-top-inline" id="backToTopFooter">Back to top ↑</button>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ FLOATING BUTTONS ============ -->
+<div class="floating-buttons">
+  <a href="https://wa.me/916374581582?text=Hello%20NEZA%20Digital%20Marketing!%20I'm%20interested%20in%20your%20services%20and%20would%20like%20to%20discuss%20my%20business%20requirements.%20Please%20get%20in%20touch." target="_blank" rel="noopener" class="float-btn fb-whatsapp" data-tooltip="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp social-icon"></i>
+  </a>
+  <a href="tel:+916374581582" class="float-btn fb-call" data-tooltip="Call us">
+    <i class="fa-solid fa-phone social-icon"></i>
+  </a>
+  <a href="mailto:nezadigital.in@gmail.com" class="float-btn fb-email" data-tooltip="Email us">
+    <i class="fa-regular fa-envelope social-icon"></i>
+  </a>
+  <button class="float-btn fb-top" id="backToTop" data-tooltip="Back to top">
+    <i data-lucide="arrow-up"></i>
+  </button>
+</div>
+
+<!-- ============ SCRIPTS ============ -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/[email protected]/dist/typed.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
